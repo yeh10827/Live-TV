@@ -1,31 +1,49 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV1
-http://120.211.62.180:8000/hls/1/index.m3u8
-#EXTINF:-1 tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV2
-http://120.211.62.180:8000/hls/2/index.m3u8
-#EXTINF:-1 tvg-name="CCTV3" tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV3
-https://tvpull.careryun.com/live/02b04ee89a7bea25b7778c181285fd0b.m3u8?txSecret=7e4ec46581a0e079a32202ea984c8428&txTime=68f4d75a
-#EXTINF:-1 tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV4
-http://120.211.62.180:8000/hls/4/index.m3u8
-#EXTINF:-1 tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV5
-https://tvpull.careryun.com/live/2fe3f8cc14c276a4d713fd6b9842e787.m3u8?txSecret=2ad58f18cd715554961a95bc236e6838&txTime=68f4d9d8
-#EXTINF:-1 tvg-name="CCTV6" tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV6
-http://www.dsk.cc/php/bfgd.php?id=cctv6&m.m3u8
-#EXTINF:-1 tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8
-http://www.dsk.cc/php/bfgd.php?id=cctv8&m.m3u8
-#EXTINF:-1 tvg-name="CCTV13" tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV13
-http://120.211.62.180:8000/hls/13/index.m3u8
-#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视频道",北京卫视
-http://120.211.62.180:8000/hls/35/index.m3u8
-#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="卫视频道",东方卫视
-http://219.157.60.114:7001/rtp/225.1.4.85:1114
-#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视频道",浙江卫视
-https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8?
-#EXTINF:-1 tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="港澳台",翡翠台
-http://php.jdshipin.com/TVOD/iptv.php?id=huali2
-#EXTINF:-1 tvg-name="TVBSNEWS" tvg-logo="https://live.fanmingming.com/tv/TVBSNEWS.png" group-title="港澳台",TVBSNEWS
-http://61.221.215.25:8800/hls/9/index.m3u8
-#EXTINF:-1 tvg-name="民视" tvg-logo="https://live.fanmingming.com/tv/民视.png" group-title="港澳台",民视
-rtmp://f13h.mine.nu/sat/tv051
-#EXTINF:-1 tvg-name="中天新闻" tvg-logo="https://live.fanmingming.com/tv/中天新闻.png" group-title="港澳台",中天新闻
+
+# --- 台灣頻道：體育專區 ---
+#EXTINF:-1 tvg-name="愛爾達體育1台" group-title="台灣頻道",愛爾達體育 1 台
+http://61.221.215.25:8800/hls/51/index.m3u8
+#EXTINF:-1 tvg-name="愛爾達體育2台" group-title="台灣頻道",愛爾達體育 2 台
+http://61.221.215.25:8800/hls/52/index.m3u8
+#EXTINF:-1 tvg-name="愛爾達體育3台" group-title="台灣頻道",愛爾達體育 3 台
+http://61.221.215.25:8800/hls/53/index.m3u8
+#EXTINF:-1 tvg-name="博斯運動一台" group-title="台灣頻道",博斯運動一台
+http://61.221.215.25:8800/hls/58/index.m3u8
+#EXTINF:-1 tvg-name="博斯高球台" group-title="台灣頻道",博斯高球台
+http://61.221.215.25:8800/hls/59/index.m3u8
+#EXTINF:-1 tvg-name="緯來體育" group-title="台灣頻道",緯來體育 (RTMP)
+rtmp://f13h.mine.nu/sat/tv721
+
+# --- 台灣頻道：電影與影劇 ---
+#EXTINF:-1 tvg-name="龍華電影" group-title="台灣頻道",龍華電影台
+http://61.221.215.25:8800/hls/21/index.m3u8
+#EXTINF:-1 tvg-name="龍華影劇" group-title="台灣頻道",龍華影劇台
+http://61.221.215.25:8800/hls/22/index.m3u8
+#EXTINF:-1 tvg-name="龍華偶像" group-title="台灣頻道",龍華偶像台
+http://61.221.215.25:8800/hls/23/index.m3u8
+#EXTINF:-1 tvg-name="緯來日本" group-title="台灣頻道",緯來日本 (RTMP)
+rtmp://f13h.mine.nu/sat/tv771
+#EXTINF:-1 tvg-name="八大戲劇" group-title="台灣頻道",八大戲劇台
+http://61.221.215.25:8800/hls/39/index.m3u8
+
+# --- 台灣頻道：新聞與綜合 ---
+#EXTINF:-1 tvg-name="TVBS新聞" group-title="台灣頻道",TVBS 新聞
+https://news-p-events.tvbs.com.tw/live/news/index.m3u8
+#EXTINF:-1 tvg-name="東森新聞" group-title="台灣頻道",東森新聞
+https://ebcnews.p.azureedge.net/live/index.m3u8
+#EXTINF:-1 tvg-name="三立新聞" group-title="台灣頻道",三立新聞
+http://vidol-p-events.akamaized.net/live/setn/index.m3u8
+#EXTINF:-1 tvg-name="中天新聞" group-title="台灣頻道",中天新聞
 https://aktv.top/AKTV/live/aktv/null8/AKTV.m3u8
+#EXTINF:-1 tvg-name="公視" group-title="台灣頻道",公視
+https://ptv-p-events.akamaized.net/live/ptv/index.m3u8
+#EXTINF:-1 tvg-name="華視" group-title="台灣頻道",華視 (RTMP)
+rtmp://f13h.mine.nu/sat/tv111
+#EXTINF:-1 tvg-name="民視" group-title="台灣頻道",民視 (RTMP)
+rtmp://f13h.mine.nu/sat/tv051
+
+# --- 央視與衛視分組 ---
+#EXTINF:-1 tvg-name="CCTV1" group-title="央視頻道",CCTV1
+http://120.211.62.180:8000/hls/1/index.m3u8
+#EXTINF:-1 tvg-name="湖南衛視" group-title="內地衛視",湖南衛視
+http://120.211.62.180:8000/hls/30/index.m3u8
